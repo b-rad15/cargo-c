@@ -46,3 +46,4 @@ itertools = "0.10"
 [features]
 default = []
 vendored-openssl = ["cargo/vendored-openssl"]
+cargo-features = ["edition2021"]
