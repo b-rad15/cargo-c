@@ -6,6 +6,7 @@ edition = "2021"
 [features]
 default = []
 capi = ["libc"]
+cargo-features = ["edition2021"]
 
 [dependencies]
 libc = { version = "0.2", optional = true }
